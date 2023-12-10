@@ -1,0 +1,10 @@
+@import url('vendor/reset.css');
+@import url('components/index.css');
+@import url('components/home.css');
+@import url('components/about.css');
+@import url('components/portfolio.css');
+@import url('components/skills.css');
+@import url('components/footer.css');
+@import url('components/adaptive.css');
+@import url('components/login.css');
+@import url('components/registr.css');
