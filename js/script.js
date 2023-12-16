@@ -48,15 +48,15 @@ const modalTimerId = setTimeout(openModal, 8000);
 
 
 //-------------------Class use Portfolio---------------------------------------------
-class PortfolioCard {
-    constructor(src, title, href, parentSelector) {
+class PortfolioCard{
+    constructor(src, title, href, parentSelector){
         this.src = src;
         this.title = title;
         this.href = href;
         this.parent = document.querySelector(parentSelector);
     }
 
-    render() {
+    render(){
         const elem = document.createElement("div");
         elem.innerHTML = `
         <div class="port__card">
@@ -65,7 +65,7 @@ class PortfolioCard {
             </div>
             <div class="text-box">
                 <p class="port-text">${this.title}</p>
-                <a href="${this.href}" class="demo__btn">Demo</a>
+                <button class="demo__btn"><a href="${this.href}">Demo</a></button>
             </div>
         </div>
         `;
@@ -74,24 +74,23 @@ class PortfolioCard {
 }
 
 new PortfolioCard(
-    "images/profile-1.png",
-    "Tic-Tac-Toe Game",
-    "https://aibeknu.github.io/Tic-Tac-Toe/",
-    ".portfolio .menu__field"
+  "images/profile-1.png",
+  "Tic-Tac-Toe Game",
+  "https://aibeknu.github.io/Tic-Tac-Toe/",
+  ".portfolio .menu__field"
 ).render();
 
 new PortfolioCard(
-    "images/profile-2.png",
-    "Calculator",
-    "https://aibeknu.github.io/Calculator/",
-    ".portfolio .menu__field"
+  "images/profile-2.png",
+  "Calculator",
+  "https://aibeknu.github.io/Calculator/",
+  ".portfolio .menu__field"
 ).render();
 
 new PortfolioCard(
-    "images/profile-3.png",
-    "To-Do-List",
-    "https://aibeknu.github.io/To-Do-List/",
-    ".portfolio .menu__field"
+  "images/profile-3.png",
+  "To-Do-List",
+  "https://aibeknu.github.io/To-Do-List/",
+  ".portfolio .menu__field"
 ).render();
-
 });
