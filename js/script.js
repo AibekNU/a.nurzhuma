@@ -75,21 +75,21 @@ class PortfolioCard{
 }
 
 new PortfolioCard(
-  "images/profile-1.png",
+  "images\profile-1.png",
   "Tic-Tac-Toe Game",
   "https://aibeknu.github.io/Tic-Tac-Toe/",
   ".portfolio .menu__field"
 ).render();
 
 new PortfolioCard(
-  "images/profile-2.png",
+  "images\profile-2.png",
   "Calculator",
   "https://aibeknu.github.io/Calculator/",
   ".portfolio .menu__field"
 ).render();
 
 new PortfolioCard(
-  "images/profile-3.png",
+  "images\profile-3.png",
   "To-Do-List",
   "https://aibeknu.github.io/To-Do-List/",
   ".portfolio .menu__field"
