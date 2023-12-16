@@ -61,7 +61,7 @@ class PortfolioCard {
         elem.innerHTML = `
         <div class="port__card">
             <div class="img-box">
-                <img src="${this.src}" alt="">
+                <img src=${this.src} alt="">
             </div>
             <div class="text-box">
                 <p class="port-text">${this.title}</p>
