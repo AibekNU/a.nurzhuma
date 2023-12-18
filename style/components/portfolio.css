@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portfolio__card {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.portfolio__card .menu__field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 16vmin 10vmin;
+}
+
+.portfolio__card .port__card {
+    width: 100%;
+    height: auto;
+    background-color: #0014B6;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .4);
+}
+
+.portfolio__card .port__card .img-box img {
+    width: 100%;
+}
+
+.portfolio__card .port__card .text-box .port-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 26px;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: 'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+}
+
+.demo__btn{
+    width: 35%;
+    margin: 20px;
+    background-color: #fff;
+    color: #0014B6 !important;
+    border: 2px solid #fff;
+    padding: 15px 0;
+    text-decoration: underline !important;
+}
